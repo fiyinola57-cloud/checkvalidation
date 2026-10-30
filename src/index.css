@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app{
+  height: 100vh;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rebeccapurple;
+}
+/* body{
+  margin: 0; */
+  /* height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rebeccapurple; */
+
+h1{
+  text-align: center;
+  color: rebeccapurple;
+}
+.regform{
+   padding: 0px 60px;
+   background-color: white;
+   padding-bottom: 20px;
+   border-radius: 10px;
+   padding-top: 20px;
+   
+}
+.regform div{
+  margin: 10px 0px;
+  display: flex;
+   flex-direction: column;
+   font-size: 17px;
+   color: rgb(58, 58, 58);
+}
+.regform div input{
+  padding: 15px;
+  width: 310px;
+  border-radius: 10px;
+  border: 1px solid rgb(204, 202, 202);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+input::placeholder{
+  font-size: 14px;
+}
+input[type = "date"]{
+  font-size: 15px;
+  color: rgb(121, 120, 120);
+}
+button{
+  width: 100%;
+  padding: 15px;
+  margin-top: 15px;
+  background-color: rebeccapurple;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.error{
+  color: red;
+  font-size: 12px;
+}
